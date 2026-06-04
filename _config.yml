@@ -31,3 +31,5 @@ sphinx:
     language: es
     html_theme_options:
       announcement: ""
+
+      pip install -r requirements.txt
