@@ -1,0 +1,33 @@
+# Jupyter Book Configuration
+title: MLWater
+author: Carlos Diaz
+logo: logo.png
+
+# Execution settings
+execute:
+  execute_notebooks: force
+  timeout: 30
+  allow_errors: false
+
+# HTML-specific settings
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_button: true
+  extra_navbar: ""
+  extra_footer: |
+    <p>Created with <a href="https://jupyterbook.org">Jupyter Book</a></p>
+
+# LaTeX-specific settings
+latex:
+  latex_engine: xelatex
+  latex_documents:
+    targetname: book.tex
+
+# Sphinx configuration
+sphinx:
+  extra_extensions: []
+  config:
+    language: es
+    html_theme_options:
+      announcement: ""
