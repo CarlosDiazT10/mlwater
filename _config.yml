@@ -33,3 +33,12 @@ sphinx:
       announcement: ""
 
       pip install -r requirements.txt
+      jupyter-book build .
+      # En macOS:
+open _build/html/index.html
+
+# En Linux:
+xdg-open _build/html/index.html
+
+# En Windows:
+start _build/html/index.html
